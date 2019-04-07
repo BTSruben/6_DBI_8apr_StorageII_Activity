@@ -9,4 +9,5 @@ PostgreSQL:
 Pandas:
 
     docker build . -t NAME_PANDAS
+    docker run -dit NAME_PANDAS
     docker cp script.py ID_PANDAS:. && docker exec -it ID_PANDAS python script.py
